@@ -127,9 +127,9 @@ class ImageApprovalApp(QMainWindow):
             
 
     def keyPressEvent(self, event):
-        if event.key() == Qt.Key_Equal:
+        if event.key() == Qt.Key_W:
             self.zoomIn()
-        elif event.key() == Qt.Key_Minus:
+        elif event.key() == Qt.Key_S:
             self.zoomOut()
         elif event.key() == Qt.Key_D:
             self.nextImage()
