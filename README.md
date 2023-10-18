@@ -37,4 +37,4 @@ Saving:
 
 The sheet gets automatically created in the same directory as the script with the date in its name. It updates after every image if the approve or deny button is pressed. It resets every session, so make sure you make a copy.
 
-Alternatively, you can fill in a filename in the app and press save to save your progress - Example in the field - "Newimages" : It will be saved as "Newimage_image_approval.xlsx" in the same folder as the script.
+Alternatively, you can fill in a filename in the app and press save to save your progress - Example in the field - "Newimages" : It will be saved as "Newimages_image_approval.xlsx" in the same folder as the script.
