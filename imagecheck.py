@@ -13,7 +13,7 @@ class ImageApprovalApp(QMainWindow):
         self.image_folder = '../'
         self.image_list = [f for f in os.listdir(self.image_folder) if f.lower().endswith((".jpg", ".png"))]
         self.current_image = 0
-        self.zoom_factor = 1.0
+        self.zoom_factor = 1
 
         self.image_data = pd.DataFrame(columns=["ImageName", "Approved"])
 
