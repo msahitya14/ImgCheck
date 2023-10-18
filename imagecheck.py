@@ -38,7 +38,7 @@ class ImageApprovalApp(QMainWindow):
         self.approve_button = QPushButton("Approve", self)
         self.approve_button.clicked.connect(self.onApprove)
 
-        self.not_approved_button = QPushButton("Not Approved", self)
+        self.not_approved_button = QPushButton("Deny", self)
         self.not_approved_button.clicked.connect(self.onNotApproved)
 
         self.scroll_area = QScrollArea(self)
@@ -116,7 +116,7 @@ class ImageApprovalApp(QMainWindow):
         if self.current_image < len(self.image_list):
             image_name = self.image_list[self.current_image]
             text = self.text_input.text()
-            new_data = {'ImageName': [image_name], 'Approved': ['Not Approved'], 'Comment': [text]}  # Add a 'Comment' column
+            new_data = {'ImageName': [image_name], 'Approved': ['Denied'], 'Comment': [text]}  # Add a 'Comment' column
             new_row = pd.DataFrame(new_data)
             self.image_data = pd.concat([self.image_data, new_row], ignore_index=True)
             self.current_image += 1
