@@ -17,6 +17,7 @@ On Linux : python3 imagecheck.py
 
 
 *Instructions*:
+
 Button -- 'A'  ===== Used to navigate to the the previous image
 
 
