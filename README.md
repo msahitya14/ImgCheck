@@ -16,10 +16,17 @@ On Linux : python3 imagecheck.py
 
 
 
-Instructions:
+*Instructions*:
 Button -- 'A'  ===== Used to navigate to the the previous image
+
+
 Button -- 'D'  ===== Used to navigate to the next image
+
+
 Button -- 'S'  ===== Used to Zoom Out the image
+
+
 Button -- 'W'  ===== Used to Zoom Into the image
+
 
 You can Pan using your mouse to left right buttons when the scroll bar appears.
