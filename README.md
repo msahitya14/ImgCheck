@@ -3,7 +3,7 @@ This is a app written in python with PyQT5 GUI. It can be used to open images by
 
 Use pip install -r requirements.txt to install the required libraries - PyQT5 and pandas.
 
-If you can successfully install PyQT5 using pip, use the following:
+If you can't successfully install PyQT5 using pip, use the following:
   For debian/linux:
     sudo apt-get install python3-pyqt5
   Using anaconda:
